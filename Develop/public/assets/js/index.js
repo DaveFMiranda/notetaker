@@ -20,6 +20,9 @@ ALSO:
 
 */
 
+// 1) CREATE SERVER.JS
+// 2) CREATE A ROUTE TO POST A NEW NOTE TO DB.JSON
+// 2) TAKE A LOOK AT NOTES FROM CHAT GPT
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
