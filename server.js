@@ -33,12 +33,12 @@ const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db', 'db.json')))
 
 // Serve the index.html file
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
   });
   
   // Serve the notes.html file
   app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, 'notes.html'));
+    res.sendFile(path.join(__dirname, 'public', 'notes.html'));
   });
   
 app.listen(PORT, ()=>
