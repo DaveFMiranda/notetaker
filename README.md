@@ -6,6 +6,8 @@
 
 This app accepts uses client-side and server-side APIs to record and save user tasks, store them persistently in a database, and display them as needed.
 
+Here's a link to the deployed application: https://notetakerdfm.herokuapp.com/
+
 Here's a screenshot: ![Screenshot](/public/assets/screenshot.png)
 
 ## Table of Contents
