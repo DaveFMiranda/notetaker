@@ -6,7 +6,7 @@
 
 This app accepts uses client-side and server-side APIs to record and save user tasks, store them persistently in a database, and display them as needed.
 
-Here's a screenshot: ![Screenshot](/assets/screenshot.png)
+Here's a screenshot: ![Screenshot](/public/assets/screenshot.png)
 
 ## Table of Contents
 
